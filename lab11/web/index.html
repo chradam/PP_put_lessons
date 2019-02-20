@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JavaScript &mdash; Platformy programowania</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/themes/default/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="page-header">
+	    <h1>JavaScript &mdash; Platformy programowania</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Drzewo</div>
+                    <div id="tree" class="panel-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Opis</div>
+                    <div id="description" class="panel-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Kalkulator</div>
+                    <div id="calc" class="panel-body">
+                        <ul id="stack" class="list-group">
+                        </ul>
+                        <div class="form-group">
+                            <input id="input" type="text" class="form-control text-right" />
+                        </div>
+                        <div class="form-group text-center">
+                            <div class="btn-group" role="group">
+                                <button id="enter" type="button" class="btn btn-default" onclick="enterClicked()">Enter</button>
+                                <button id="add" type="button" class="btn btn-default" onclick="add()">+</button>
+                                <button id="subtract" type="button" class="btn btn-default" onclick="sub()">-</button>
+                                <button id="multiply" type="button" class="btn btn-default" onclick="mul()">&times;</button>
+                                <button id="divide" type="button" class="btn btn-default" onclick="div()">&divide;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/lib/jquery-2.2.4.min.js"></script>
+    <script src="js/lib/jstree.min.js"></script>
+    <script src="js/tree.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+</html>

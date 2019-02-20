@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Folder 1",
+    "type": "dir",
+    "description": "Opis folderu pierwszego.",
+    "nested": [
+      {
+        "label": "Plik 1",
+        "type": "file",
+        "description": "Opis pliku 1."
+      }, {
+        "label": "Plik 2",
+        "type": "file",
+        "description": "Opis pliku 2."
+      }, {
+        "label": "Plik 3",
+        "type": "file",
+        "description": "Opis pliku 3."
+      }
+    ]
+  }, {
+    "label": "Folder 2",
+    "type": "dir",
+    "description": "Opis folderu drugiego.",
+    "nested": [
+      {
+        "label": "Plik 4",
+        "type": "file",
+        "description": "Opis pliku 4."
+      }, {
+        "label": "Plik 5",
+        "type": "file",
+        "description": "Opis pliku 5."
+      }, {
+        "label": "Plik 6",
+        "type": "file",
+        "description": "Opis pliku 6."
+      }
+    ]
+  }, {
+    "label": "Folder 3",
+    "type": "dir",
+    "description": "Opis folderu trzeciego.",
+    "nested": [
+      {
+        "label": "Plik 7",
+        "type": "file",
+        "description": "Opis pliku 7."
+      }, {
+        "label": "Plik 8",
+        "type": "file",
+        "description": "Opis pliku 8."
+      }, {
+        "label": "Plik 9",
+        "type": "file",
+        "description": "Opis pliku 9."
+      }
+    ]
+  }
+]
